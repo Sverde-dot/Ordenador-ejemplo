@@ -83,7 +83,7 @@ public class OrdenadorF {
      *
      */
     public void amosar() {
-        System.out.println("Tipo rato: " + esMouse.gettype()+ "\n Marca pantalla: " + esScreen.getmark()+ "\n Pulgadas pantalla: " + esScreen.getinches()+ "\n Velocidade cpu: " + esCpu.getspeed()+ "\n Memoria cpu: " + esCpu.getmemory());
+        System.out.println("Tipo rato: " + esMouse.gettype()+ "\n Marca pantalla: " + esScreen.getbrand()+ "\n Pulgadas pantalla: " + esScreen.getinches()+ "\n Velocidade cpu: " + esCpu.getspeed()+ "\n Memoria cpu: " + esCpu.getmemory());
     }
 
 }

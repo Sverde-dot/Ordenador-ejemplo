@@ -7,7 +7,7 @@ package ordenador.ejemplo;
  */
 public class screen {
 
-    private String mark;
+    private String brand;
     private float inches;
 
     /**
@@ -17,30 +17,30 @@ public class screen {
     }
 
     /**
-     * screen has the parameters of mark(String) and inches(float)
+     * screen has the parameters of brand(String) and inches(float)
      *
-     * @param mark 
+     * @param brand 
      * @param inches 
      */
-    public screen(String mark, float inches) {
-        this.mark = mark;
+    public screen(String brand, float inches) {
+        this.brand = brand;
         this.inches = inches;
     }
 
     /**
-     * Set of mark values
+     * Set of brand values
      */
-    public void setmark() {
-        this.mark = mark;
+    public void setbrand() {
+        this.brand = brand;
     }
 
     /**
-     * Get of mark values,returns (mark)
+     * Get of brand values,returns (mark)
      *
      * @return
      */
-    public String getmark() {
-        return mark;
+    public String getbrand() {
+        return brand;
     }
 
     /**
